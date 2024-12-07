@@ -2,7 +2,7 @@
   "name": "collaborative-cursors",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SOM3-1.github.io/around-the-world",
+  "homepage": "https://SOM3-1.github.io/global-cursors",
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
     "cra-template": "1.2.0",
