@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://cursors-backend.onrender.com");
+const socket = io(
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:3001" 
+    : "https://cursors-backend.onrender.com",
+  {
+    transports: ["websocket", "polling"], 
+  }
+);
 
 const App = () => {
   const [cursors, setCursors] = useState({});
