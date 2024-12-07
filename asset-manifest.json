@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/around-the-world/static/css/main.e6c13ad2.css",
-    "main.js": "/around-the-world/static/js/main.72ee3db2.js",
-    "index.html": "/around-the-world/index.html",
-    "main.e6c13ad2.css.map": "/around-the-world/static/css/main.e6c13ad2.css.map",
-    "main.72ee3db2.js.map": "/around-the-world/static/js/main.72ee3db2.js.map"
+    "main.css": "/global-cursors/static/css/main.e6c13ad2.css",
+    "main.js": "/global-cursors/static/js/main.72ee3db2.js",
+    "index.html": "/global-cursors/index.html",
+    "main.e6c13ad2.css.map": "/global-cursors/static/css/main.e6c13ad2.css.map",
+    "main.72ee3db2.js.map": "/global-cursors/static/js/main.72ee3db2.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
