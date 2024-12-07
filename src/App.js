@@ -31,7 +31,7 @@ const App = () => {
     <div>
       {Object.entries(cursors)
         .filter(([id]) => id !== socket.id)
-        .map(([id, { name, x, y, cursorImage }]) => (
+        .map(([id, { name, x, y, cursorImage, country, flag }]) => (
           <div
             key={id}
             style={{
@@ -43,22 +43,28 @@ const App = () => {
             }}
           >
             <img
-              src={cursorImage} 
+              src={cursorImage}
               alt="cursor"
               style={{
                 width: "24px",
                 height: "24px",
               }}
             />
-            <div
-              style={{
-                fontSize: "12px",
-                textAlign: "center",
-                color: "black",
-              }}
-            >
+            <div style={{ fontSize: "12px", textAlign: "center", color: "black" }}>
               {name}
             </div>
+            {flag && (
+              <img
+                src={flag}
+                alt={`${country} flag`}
+                style={{
+                  display: "block",
+                  margin: "auto",
+                  width: "20px",
+                  height: "15px",
+                }}
+              />
+            )}
           </div>
         ))}
     </div>
