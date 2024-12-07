@@ -50,8 +50,8 @@ const App = () => {
             }}
           >
             <img
-             src={`${process.env.PUBLIC_URL}/1.svg`}
-             alt="cursor"
+              src={cursorImage}
+              alt="cursor"
               style={{
                 width: "24px",
                 height: "24px",
