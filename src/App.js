@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 const socket = io(
   process.env.NODE_ENV === "development"
     ? "http://localhost:3001" 
-    : "https://cursors-backend.onrender.com",
+    : "https://global-cursors.azurewebsites.net",
   {
     transports: ["websocket", "polling"], 
   }
